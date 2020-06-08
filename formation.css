@@ -1,0 +1,46 @@
+html {font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+
+}
+body {
+    box-sizing: border-box;
+}
+
+
+header {
+        display: flex;
+        width: 100%;
+    flex-direction: row;
+    border: 1px solid gray;
+    flex-wrap: wrap;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0;
+    }
+li {list-style: none; 
+    display: inline-block;
+    padding-right: 5px;
+text-align: center;
+}
+
+.space {
+    flex:1 1 auto;
+}
+
+section {
+    display: flex;
+    height: 450px;
+    width: 90;
+    background-color: yellow;
+    padding:30px;
+}
+
+.stories {
+    flex: auto;
+}
