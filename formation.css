@@ -42,5 +42,22 @@ section {
 }
 
 .stories {
-    flex: auto;
+    /* flex: auto; */
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   margin: 20px;
+    
+}
+
+.stories img {
+    width: 200px;
+    height: 200px;
+}
+
+img:hover{
+    opacity: .5;
+    transition: cubic-bezier(0.95, 0.05, 0.795, 0.035)
 }
