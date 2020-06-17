@@ -14,8 +14,14 @@ header {
     flex-direction: row;
     border: 1px solid gray;
     flex-wrap: wrap;
+    background-color: lightblue;
+
 }
 
+header a {
+    text-decoration: none;
+
+}
 ul {
     display: flex;
     flex-direction: row;
@@ -25,9 +31,13 @@ ul {
     }
 li {list-style: none; 
     display: inline-block;
-    padding-right: 5px;
-text-align: center;
+    text-align: center;
+    background-color: lightgreen;
+    padding: 5px;
+    margin: auto;
+    border: 2px solid lightblue;
 }
+
 
 .space {
     flex:1 1 auto;
@@ -61,3 +71,8 @@ img:hover{
     opacity: .5;
     transition: cubic-bezier(0.95, 0.05, 0.795, 0.035)
 }
+
+main {
+    margin-top: 10px;
+}
+
