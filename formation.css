@@ -26,7 +26,7 @@ ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     padding-left: 0;
     }
 li {list-style: none; 
@@ -46,9 +46,9 @@ li {list-style: none;
 section {
     display: flex;
     height: 450px;
-    width: 90;
+    width: 90vw;
     background-color: yellow;
-    padding:30px;
+    padding:10px;
 }
 
 .stories {
@@ -63,9 +63,9 @@ section {
 }
 
 .stories img {
-    width: 200px;
-    height: 200px;
-}
+    width: 150px;
+    height: 150px;
+    }
 
 img:hover{
     opacity: .5;
@@ -76,3 +76,10 @@ main {
     margin-top: 10px;
 }
 
+footer a {
+    text-decoration: none;
+}
+.slide {
+    background-color: blueviolet;
+    height: 100px;
+}
