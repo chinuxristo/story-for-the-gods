@@ -46,13 +46,13 @@ li {list-style: none;
 section {
     display: flex;
     height: 450px;
-    width: 90vw;
+    /* width: 90vw; */
     background-color: yellow;
     padding:10px;
 }
 
 .stories {
-    /* flex: auto; */
+    flex: auto;
     display: flex; 
     flex-wrap: wrap;
     flex-direction: column;
